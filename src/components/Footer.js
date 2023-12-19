@@ -1,11 +1,15 @@
+import getAppInfo from "../Utils/AppName";
+
+const AppName = getAppInfo().appName;
+const version = getAppInfo().version;
+const year = getAppInfo().year;
+
 function Footer() {
 
-    const version = "1.0.0";
-    const year = 2023;
 
     return (
         <div className="w-full text-center bg-sky-950 text-white p-3 mt-auto">
-            <h2>{version} © {year}. All rights reserved by Trust Engineering BD</h2>
+            <h2>{version} © {year}. All rights reserved by {AppName}</h2>
         </div>
     );
 }
