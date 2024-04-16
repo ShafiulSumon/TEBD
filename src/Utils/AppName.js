@@ -1,8 +1,8 @@
 const getAppInfo = () => {
     return {
-        "appName": "React Demo Project",
+        "appName": "Trust Engineering BD",
         "version": "1.0.0",
-        "year": "2023"
+        "year": "2024"
     }
 }
 
