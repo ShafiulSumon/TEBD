@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const AppName = getAppInfo().appName;
 
 function Header() {
-    const itemsStyle = "px-10 hover:text-blue-500 font-extrabold hover:font-bold  hover:cursor-pointer";
+    const itemsStyle = "px-10 hover:text-blue-500 text-lg font-light hover:font-bold  hover:cursor-pointer";
 
     const linkStyle = (navInfo) => {
         if(navInfo.isActive) {
