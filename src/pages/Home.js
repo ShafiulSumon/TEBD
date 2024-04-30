@@ -3,6 +3,7 @@ import installation from "../images/installation.png";
 import testing from "../images/test.png";
 import service from "../images/service.png";
 import replace from "../images/replace.png";
+import otherService from "../images/customer.png";
 
 function Home() {
     return (
@@ -35,6 +36,21 @@ function Home() {
                         title={"Replace and responsibly dispose of existing electro-mechanical asset."} 
                         image={replace}
                     />
+                </div>
+                
+                <div className="other-service-css flex flex-row p-10">
+                    <div className="basis-1/3">
+                        <img src={otherService} alt="photo" width={300} height={200}/>
+                    </div>
+                    <div className="basis-2/3">
+                        <span className="text-bold text-5xl text-yellow-500">Other Services</span>
+                        <ul className="text-2xl text-white">
+                            <li>Free initial consultancy</li>
+                            <li>Fault finding(inspection & tesging + defect repair)</li>
+                            <li>Fixed electrical testing</li>
+                            <li>Generator servicing</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

@@ -5,17 +5,17 @@ import { NavLink } from "react-router-dom";
 const AppName = getAppInfo().appName;
 
 function Header() {
-    const itemsStyle = "px-10 hover:text-blue-500 text-lg font-light hover:font-bold  hover:cursor-pointer";
+    const itemsStyle = "px-10 hover:text-sky-500 text-lg font-light hover:font-bold  hover:cursor-pointer";
 
     const linkStyle = (navInfo) => {
         if(navInfo.isActive) {
             // return "border-b-2 border-blue-500";
-            return "text-violet-500";
+            return "text-orange-500 underline underline-offset-8";
         }
     }
 
     return (
-        <div className="flex flex-row justify-between w-full bg-white px-5 text-blue-400 h-20 sticky top-0">
+        <div className="flex flex-row justify-between w-full bg-white px-5 text-sky-600 h-16 sticky top-0">
             {/* <div className="text-2xl font-bold my-auto">{AppName}</div> */}
             <img src={Logo} alt={AppName} width={420} className="pl-10 py-2"/>
 

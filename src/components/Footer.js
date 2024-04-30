@@ -8,7 +8,7 @@ function Footer() {
 
 
     return (
-        <div className="footer-bg-color w-full text-center bg-sky-950 text-gray-400 p-3 mt-auto">
+        <div className="footer-bg-color w-full text-center text-gray-400 p-3 mt-auto">
             <h2>{version} © {year}. All rights reserved by {AppName}</h2>
         </div>
     );
