@@ -39,19 +39,22 @@ function Home() {
                 </div>
                 
                 <div className="other-service-css flex flex-row p-10">
-                    <div className="basis-1/3">
+                    <div className="basis-1/5"></div>
+                    <div className="basis-1/5">
                         <img src={otherService} alt="photo" width={300} height={200}/>
                     </div>
-                    <div className="basis-2/3">
-                        <span className="text-bold text-5xl text-yellow-500">Other Services</span>
-                        <ul className="text-2xl text-white">
+                    <div className="basis-2/5">
+                        <h2 className="text-bold text-5xl text-yellow-500">Other Services</h2>
+                        <ul className="text-2xl text-white mt-5">
                             <li>Free initial consultancy</li>
                             <li>Fault finding(inspection & tesging + defect repair)</li>
                             <li>Fixed electrical testing</li>
                             <li>Generator servicing</li>
                         </ul>
                     </div>
+                    <div className="basis-1/5"></div>
                 </div>
+
             </div>
         </div>
     );
