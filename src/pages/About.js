@@ -1,7 +1,7 @@
+import Me from "../images/me.jpg";
+
 function About() {
-    return (
-        <h1>About page</h1>
-    );
+  return <div>About Page</div>;
 }
 
 export default About;
